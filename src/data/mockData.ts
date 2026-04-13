@@ -107,87 +107,146 @@ export const mockData = {
     ]
   },
   culturalClubs: [
-    { name: "Dance Club", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBBSCucVruGeGvW3V0vSQcXn_6f_HyVuR3oM0cjh4t2VtoOIPf2rMIPN5HtEP7CmvVPCgB7kL0yS5Ebs1F8dwqqjMwtFLMTCBmF5UzKq3Q9KWkx1y6zMt5Zad-XC5glhoMakVmmYJGqaPsXK6gmzE5Pf-AXW_bE2rgJRcarEL77Lcw-1YgP7tqvU7zT9UUnFsyabXsTsSwRbvmwg9sduwm_Ya9Ex4h7Qa7TAMNMapNWOfOtjxK3UYSTxBFI6dQKLhD1VROitNmR3w" },
-    { name: "Music Society", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCpq2Du1il7JRnL_QjEGOTU24nAvJelM4gxcFMz1mSY3-A-At4PPWfOW-dTHNRw5uwDvmMfIl7FW5if2AHwGNv5mk_RswUf3OiQbMKwVd77TZqkj3-e6s9HI6Lu41O-qs5ZDXbTzbiFWwPw5fPshITIynal76fD17_5jQmpTOrNWHV_FzUm_5gjQZFJNYJ3jOqZZmx7G-KdT_L0chs6Uq7LfSM66bxw3NxQ5fv2zy7tXbWIXG5JMvd6mkxQl8tfpp4ayoGoBy4k2g" },
-    { name: "Drama Guild", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCS7JATSEy-G67kHEKKo9T5-3cgbcUKg0nYNqxKrM8xGh0hJbz96IhjkOwqK0RiVmlC2aWEWS8XcRizblFzWfkXJ4MNqXetPIX14ZdqEHgRRA_y87HXA8YGJc4u6VTUNBd25ge9jFC3d3hl8w2Lil93AJnW0TBPvhF-epbWlOcBh9xopNIjWdJDL6Xcez9pzNaYNOPuIkH8-y2ykfgYljuDtJvlJAeIoqhSbMcy7gHUrk1iC0qgS9IHaqh8EUw8SjW_tmgKkj54lw" },
-    { name: "Art Circle", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCbV3OSkEh6gWfXkdKq0GFG82uuv8OZBjJVZ3GUtkbiijuVvzNaijBvNlwR04Q7kGuwGd6KRJ5Dal7-kbIujufOdod0duTBNpLoslzZACbxqXKpgIA7KTOUPhFf40d0D3SXILBomvaw6YSUkwl46nMFoRbFzwMviJbz0ieC92Mu-mfd-ilBmXqJyhfp-4LusvIzeBW4eXTGLY8sCIlRAN1vh2Nyl3xdNSxcjlvaaCi-30w6F-elJXrfI6Z_e0WYfuWxosLQoIlEJg" },
-    { name: "Literary Club", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBrQEdkRDq_4H0jqwyB4WtvbIgnd1a1MsxpEaDR-E6MByJA-b1aSQdvF6_-Y7E7QiLbLVpnNKV3JGQpU1Ob7wq9rvXFaSTM0bcHr41MVq4i1yj7F7tO9ygjAtjJTULQyBJWHyUgy86uZYyGAarlJ1vcXGdQCl6AaeMefWFylMPZ1nLmmXNTe-aUBjidYl-9lOgpSqHcpSx3xVwnvxw7WzZ1vZwwof45vYtNzOgcohfqfEbYnTBGHjmKmNVxxd1wyo4PBQEZHJTDgw" },
-    { name: "Heritage Club", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDJE5lPJHqoLSFzw62jPNJsm5LCZs5N39m1jEEq58nIf_5RxOuSAG6EPkgBj1ZANnF2RaYKYLsxj6234VRsrKCfJjC_SnHXgNJPQDtDaMZ5q1EvUcAfE5k1Ka6yI3kF05N8eSd2uPol-Lely7TV-VD8pkooxsdUtfvCP-o2PP_FSpzOlxazKmj2LytLCgaD-NHS9DfN9ANcv0rP8n_7coJBNalrHk1jLS6qXAqxJwCaFxjaz0UrGz3Ii-4z3oCiuVBD2JcvMapmmw" },
-    { name: "Photography", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAZsNsSIsKf1-8uWqL017jznhz2ijNHQoH-uD_Rt8tU6ejihM2lRPf7bj7m2Fm_UY0PBSBt-JSpG0ku0WSbukLkrXP8UehsDqOyQW9PSREwNozqAqNs6epqjHt3t5olKXusUkHiAHPJD7LaamQyu7YsuvTazeMmQcmp_Q_C24ckHzLz1vflDFfvLS8njPUoloI-q9iVkBXnToK-msn58AAGzTGzNwCdvKD54cIdQU7DWovragAgC2zK7DYwZYirCDMUiooI33nZug" },
-    { name: "Film Society", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuC9_qOGLoCxxw7B9x8XoE_BUDlc1Cg402DRSXQej5kpSRBlp6PXFuFzOtQ1B2hCqyqMCL75MYc-SXwO4WrrKiWqKYlb8A7t8cDRQSUymBIwz_Xbn2DdU1kXYKGqQfVyQ7Mh1hjc4SRUdox1-qbuaI7Bmz9IJ-9_QsuC1tfyWh_sS-W_s1nZ5KfYhsx-uISdsVodTX6ppYJxsOcjU9J6O6pQ6hyKOhtrzcAS2fe-OtA6fRxY9uxWT4Qy7cqJawNN00l7cwh-UZS9ww" },
-    { name: "Fashion House", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuC97R1lJ9bEnXCdikRzD10-vTxg-DSa5_LxL_-sPLd-7pT0iDJP9AZJrFlYroCczGVb4GxGbu0VuShLMarcr_3loDSKZr58A-Jn6YXBsWXErtRndUq-fFVGuvyD-6IG0OgSGBfkRStPB60k-Jh2K3Nzw1cj2rRiP8fKBxNoEEaAIQU8ZIjglH7lb3xLyPfjujw5BsbWaqGdHzrvYuMgEtbmOb1lEQj6dcBof_adtRGLxyjXaaLPclYh9nfiphhQn_MMJ6eWcH-JLg" },
-    { name: "Culinary Arts", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuB6WbYqbR_6C6wA4f6tapSq15HC6Wzg85sjrPkihd2bM6Gv7pVbRIRA20SiMc1VzeoTxwxLUEOk24cHGC64xsZwkyGWcynWsiQYeTh9ua5V3DvnzBDfNHHPsnnNQkHtZF5FAjxZf3O-reKa825Qo6vblMcXKQJbaOK2gn9QTInmldfB_JtasnV2GSBuM6EIm22gr2USgPuaa_J2F6BTWHCxPFIJ7tSvDWVNO4yYyJiy3f71i3vpjt_PCQJgCuxFBcbhgNwPOdAWtw" }
+    { name: "Advaita", image: "/clubs/advaita.png", description: "The premier cultural festival club focusing on grand celebrations and cultural integration.", upcomingEvents: [{title: "Annual Fest Prep", date: "Oct 12"}, {title: "Member Orientation", date: "Sep 20"}] },
+    { name: "Alexis Club", image: "/clubs/alexis.png", description: "Compassion and social welfare society working towards community development.", upcomingEvents: [{title: "Blood Donation Drive", date: "Nov 02"}, {title: "Orphanage Visit", date: "Nov 15"}] },
+    { name: "Ansha", image: "/clubs/ansha.png", description: "Focusing on creative expression through visual arts, photography, and storytelling.", upcomingEvents: [{title: "Lens Workshop", date: "Sep 25"}] },
+    { name: "Astronomy Club", image: "/clubs/astronomy.png", description: "For stargazers and space enthusiasts to explore the cosmos together.", upcomingEvents: [{title: "Star Gazing Night", date: "Oct 05"}, {title: "Telescope Setup", date: "Oct 10"}] },
+    { name: "Nature Club", image: "/clubs/nature.png", description: "Hiking, planting drives, and mental health and environmental awareness.", upcomingEvents: [] },
+    { name: "Music Society", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCpq2Du1il7JRnL_QjEGOTU24nAvJelM4gxcFMz1mSY3-A-At4PPWfOW-dTHNRw5uwDvmMfIl7FW5if2AHwGNv5mk_RswUf3OiQbMKwVd77TZqkj3-e6s9HI6Lu41O-qs5ZDXbTzbiFWwPw5fPshITIynal76fD17_5jQmpTOrNWHV_FzUm_5gjQZFJNYJ3jOqZZmx7G-KdT_L0chs6Uq7LfSM66bxw3NxQ5fv2zy7tXbWIXG5JMvd6mkxQl8tfpp4ayoGoBy4k2g", description: "Bringing together vocalists and instrumentalists for magical harmonies.", upcomingEvents: [{title: "Acoustic Night", date: "Oct 14"}] },
+    { name: "Drama Guild", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCS7JATSEy-G67kHEKKo9T5-3cgbcUKg0nYNqxKrM8xGh0hJbz96IhjkOwqK0RiVmlC2aWEWS8XcRizblFzWfkXJ4MNqXetPIX14ZdqEHgRRA_y87HXA8YGJc4u6VTUNBd25ge9jFC3d3hl8w2Lil93AJnW0TBPvhF-epbWlOcBh9xopNIjWdJDL6Xcez9pzNaYNOPuIkH8-y2ykfgYljuDtJvlJAeIoqhSbMcy7gHUrk1iC0qgS9IHaqh8EUw8SjW_tmgKkj54lw", description: "Theatrical performances and script-writing for aspiring actors.", upcomingEvents: [{title: "Street Play", date: "Nov 20"}, {title: "Auditions", date: "Sep 15"}] },
+    { name: "Art Circle", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCbV3OSkEh6gWfXkdKq0GFG82uuv8OZBjJVZ3GUtkbiijuVvzNaijBvNlwR04Q7kGuwGd6KRJ5Dal7-kbIujufOdod0duTBNpLoslzZACbxqXKpgIA7KTOUPhFf40d0D3SXILBomvaw6YSUkwl46nMFoRbFzwMviJbz0ieC92Mu-mfd-ilBmXqJyhfp-4LusvIzeBW4eXTGLY8sCIlRAN1vh2Nyl3xdNSxcjlvaaCi-30w6F-elJXrfI6Z_e0WYfuWxosLQoIlEJg", description: "Painting, sketching, and digital arts community.", upcomingEvents: [] },
+    { name: "Literary Club", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBrQEdkRDq_4H0jqwyB4WtvbIgnd1a1MsxpEaDR-E6MByJA-b1aSQdvF6_-Y7E7QiLbLVpnNKV3JGQpU1Ob7wq9rvXFaSTM0bcHr41MVq4i1yj7F7tO9ygjAtjJTULQyBJWHyUgy86uZYyGAarlJ1vcXGdQCl6AaeMefWFylMPZ1nLmmXNTe-aUBjidYl-9lOgpSqHcpSx3xVwnvxw7WzZ1vZwwof45vYtNzOgcohfqfEbYnTBGHjmKmNVxxd1wyo4PBQEZHJTDgw", description: "Debates, poetry slams, and book discussions.", upcomingEvents: [{title: "Debate Competition", date: "Oct 18"}] },
+    { name: "Heritage Club", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDJE5lPJHqoLSFzw62jPNJsm5LCZs5N39m1jEEq58nIf_5RxOuSAG6EPkgBj1ZANnF2RaYKYLsxj6234VRsrKCfJjC_SnHXgNJPQDtDaMZ5q1EvUcAfE5k1Ka6yI3kF05N8eSd2uPol-Lely7TV-VD8pkooxsdUtfvCP-o2PP_FSpzOlxazKmj2LytLCgaD-NHS9DfN9ANcv0rP8n_7coJBNalrHk1jLS6qXAqxJwCaFxjaz0UrGz3Ii-4z3oCiuVBD2JcvMapmmw", description: "Preserving and displaying historical truths and heritage arts.", upcomingEvents: [] },
+    { name: "Photography", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAZsNsSIsKf1-8uWqL017jznhz2ijNHQoH-uD_Rt8tU6ejihM2lRPf7bj7m2Fm_UY0PBSBt-JSpG0ku0WSbukLkrXP8UehsDqOyQW9PSREwNozqAqNs6epqjHt3t5olKXusUkHiAHPJD7LaamQyu7YsuvTazeMmQcmp_Q_C24ckHzLz1vflDFfvLS8njPUoloI-q9iVkBXnToK-msn58AAGzTGzNwCdvKD54cIdQU7DWovragAgC2zK7DYwZYirCDMUiooI33nZug", description: "Capturing moments through the lens of creativity.", upcomingEvents: [{title: "Photo Walk", date: "Oct 22"}] },
+    { name: "Film Society", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuC9_qOGLoCxxw7B9x8XoE_BUDlc1Cg402DRSXQej5kpSRBlp6PXFuFzOtQ1B2hCqyqMCL75MYc-SXwO4WrrKiWqKYlb8A7t8cDRQSUymBIwz_Xbn2DdU1kXYKGqQfVyQ7Mh1hjc4SRUdox1-qbuaI7Bmz9IJ-9_QsuC1tfyWh_sS-W_s1nZ5KfYhsx-uISdsVodTX6ppYJxsOcjU9J6O6pQ6hyKOhtrzcAS2fe-OtA6fRxY9uxWT4Qy7cqJawNN00l7cwh-UZS9ww", description: "Analyzing masterpieces and producing short films.", upcomingEvents: [{title: "Short Film Contest", date: "Nov 01"}] },
+    { name: "Fashion House", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuC97R1lJ9bEnXCdikRzD10-vTxg-DSa5_LxL_-sPLd-7pT0iDJP9AZJrFlYroCczGVb4GxGbu0VuShLMarcr_3loDSKZr58A-Jn6YXBsWXErtRndUq-fFVGuvyD-6IG0OgSGBfkRStPB60k-Jh2K3Nzw1cj2rRiP8fKBxNoEEaAIQU8ZIjglH7lb3xLyPfjujw5BsbWaqGdHzrvYuMgEtbmOb1lEQj6dcBof_adtRGLxyjXaaLPclYh9nfiphhQn_MMJ6eWcH-JLg", description: "Exploring styling, apparel design, and runway events.", upcomingEvents: [] },
+    { name: "Culinary Arts", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuB6WbYqbR_6C6wA4f6tapSq15HC6Wzg85sjrPkihd2bM6Gv7pVbRIRA20SiMc1VzeoTxwxLUEOk24cHGC64xsZwkyGWcynWsiQYeTh9ua5V3DvnzBDfNHHPsnnNQkHtZF5FAjxZf3O-reKa825Qo6vblMcXKQJbaOK2gn9QTInmldfB_JtasnV2GSBuM6EIm22gr2USgPuaa_J2F6BTWHCxPFIJ7tSvDWVNO4yYyJiy3f71i3vpjt_PCQJgCuxFBcbhgNwPOdAWtw", description: "Baking, cooking, and culinary competitions.", upcomingEvents: [] },
+    { name: "Gaming Guild", image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2670&auto=format&fit=crop", description: "E-sports, game design, and casual multiplayer tournaments.", upcomingEvents: [{title: "Valorant Tournament", date: "Nov 15"}] },
+    { name: "Anime Club", image: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=2574&auto=format&fit=crop", description: "Manga reading sessions and anime screenings.", upcomingEvents: [] },
+    { name: "Dance Club", image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=2674&auto=format&fit=crop", description: "Experience the rhythm and express yourself through diverse dance forms.", upcomingEvents: [{title: "Flash Mob", date: "Sep 28"}, {title: "Choreography Session", date: "Oct 01"}] },
+    { name: "Fitness Society", image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=2670&auto=format&fit=crop", description: "Gym workouts, marathons, and healthy lifestyle promotion.", upcomingEvents: [] },
+    { name: "Entrepreneurship", image: "https://images.unsplash.com/photo-1556761175-4b46a572b786?q=80&w=2574&auto=format&fit=crop", description: "Incubating startups and business model discussions.", upcomingEvents: [{title: "Pitch Deck Day", date: "Dec 01"}] },
+    { name: "Poetry Society", image: "https://images.unsplash.com/photo-1455390582262-044cdead27d8?q=80&w=2673&auto=format&fit=crop", description: "Spoken word, slam poetry, and creative verse writing.", upcomingEvents: [] },
+    { name: "Aero Club", image: "https://images.unsplash.com/photo-1502680390469-be75c86b636f?q=80&w=2670&auto=format&fit=crop", description: "Design, build, and fly remote-controlled aircraft.", upcomingEvents: [] },
+    { name: "Finance & Invest", image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=2670&auto=format&fit=crop", description: "Stock market trading simulation and financial literacy.", upcomingEvents: [] },
+    { name: "Media Cell", image: "https://images.unsplash.com/photo-1461151304267-38535e780c79?q=80&w=2671&auto=format&fit=crop", description: "Video editing, journalism, and campus reporting.", upcomingEvents: [] },
+    { name: "Design Studio", image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=2600&auto=format&fit=crop", description: "UI/UX, graphic design, and brand identity creation.", upcomingEvents: [] },
+    { name: "Hackers Space", image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2670&auto=format&fit=crop", description: "A haven for code junkies breaking into systems legally.", upcomingEvents: [{title: "CTF Challenge", date: "Dec 10"}] }
+  ],
+  globalEvents: [
+    { id: '1', date: 'MAY 12', day: 12, month: 5, year: 2026, time: '18:00 - 20:00', title: 'Open Source Contribution Workshop', org: 'Hack Club', type: 'Workshop', description: 'Learn how to contribute to open-source projects.' },
+    { id: '2', date: 'MAY 18', day: 18, month: 5, year: 2026, time: '10:00 - 17:00', title: 'Global Node Summit', org: 'Tribe Core', type: 'Summit', description: 'Annual gathering of all node leads and administrators.' },
+    { id: '3', date: 'MAY 24', day: 24, month: 5, year: 2026, time: '14:00 - 16:00', title: 'Project Review Phase', org: 'Evaluation Committee', type: 'Review', description: 'Mandatory review for all ongoing projects.' }
   ],
   technicalClubs: [
     {
+      name: "CODECHEF",
+      description: "Competitive Programming",
+      members: 250,
+      icon: "code",
+      gradientClass: "from-slate-600 to-slate-900",
+      image: "/clubs/codechef.jpg",
+      lead: "Suyash Singh",
+      clubLeads: [
+        {
+          role: 'President',
+          name: 'Suyash Singh',
+          phone: '+91 9580235002',
+          email: 'suyashsingh33333@gmail.com',
+          img: '/clubs/suyash.jpg'
+        },
+        {
+          role: 'Vice President',
+          name: 'Harshita Dhamijha',
+          phone: '+91 7544891893',
+          email: 'harshitadhamijha22@gmail.com',
+          img: '/clubs/harshita.jpg'
+        }
+      ],
+      upcomingEvents: [
+        { title: "Starters 120 Coding Contest", date: "May 20" },
+        { title: "Algorithm Workshop series", date: "May 24" }
+      ]
+    },
+    {
       name: "Coding Club",
       description: "Algorithmic Excellence",
-      members: "240",
+      members: 140,
       icon: "code",
-      gradientClass: "from-blue-600 to-indigo-900"
+      gradientClass: "from-slate-600 to-slate-900",
+      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2670&auto=format&fit=crop"
     },
     {
       name: "Robotics Society",
       description: "Hardware & Automation",
       members: "185",
       icon: "smart_toy",
-      gradientClass: "from-red-600 to-orange-900"
+      gradientClass: "from-slate-600 to-slate-900",
+      image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=2670&auto=format&fit=crop"
     },
     {
       name: "AI/ML Group",
       description: "Neural Networks",
       members: "312",
       icon: "psychology",
-      gradientClass: "from-emerald-600 to-teal-900"
+      gradientClass: "from-slate-600 to-slate-900",
+      image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=2670&auto=format&fit=crop"
     },
     {
       name: "Cyber Security",
       description: "Ethical Hacking",
       members: "145",
       icon: "lock",
-      gradientClass: "from-purple-600 to-fuchsia-900"
+      gradientClass: "from-slate-600 to-slate-900",
+      image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2670&auto=format&fit=crop"
     },
     {
       name: "Open Source",
       description: "Community Projects",
       members: "402",
       icon: "terminal",
-      gradientClass: "from-pink-600 to-rose-900"
+      gradientClass: "from-slate-600 to-slate-900",
+      image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2670&auto=format&fit=crop"
     },
     {
       name: "Cloud Tech",
       description: "Infrastructure",
       members: "156",
       icon: "cloud",
-      gradientClass: "from-yellow-600 to-orange-700"
+      gradientClass: "from-slate-600 to-slate-900",
+      image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=2670&auto=format&fit=crop"
     },
     {
       name: "Data Science",
       description: "Big Data Insights",
-      members: "278",
+      members: 300,
       icon: "database",
-      gradientClass: "from-cyan-600 to-blue-700"
+      gradientClass: "from-slate-500 to-slate-800",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2670&auto=format&fit=crop"
     },
     {
       name: "Blockchain",
       description: "Web3 & Crypto",
       members: "94",
       icon: "currency_bitcoin",
-      gradientClass: "from-amber-600 to-yellow-900"
+      gradientClass: "from-amber-600 to-yellow-900",
+      image: "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?q=80&w=2669&auto=format&fit=crop"
     },
     {
       name: "IoT Lab",
       description: "Connected Devices",
       members: "122",
       icon: "settings_input_component",
-      gradientClass: "from-slate-600 to-slate-900"
+      gradientClass: "from-slate-600 to-slate-900",
+      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2670&auto=format&fit=crop"
     },
     {
       name: "AR/VR Studio",
       description: "Immersive Media",
       members: "68",
       icon: "view_in_ar",
-      gradientClass: "from-indigo-600 to-purple-800"
+      gradientClass: "from-indigo-600 to-purple-800",
+      image: "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?q=80&w=2670&auto=format&fit=crop"
     }
   ],
   sportsClubs: [
