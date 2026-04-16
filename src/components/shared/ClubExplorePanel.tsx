@@ -8,7 +8,7 @@ interface ClubExplorePanelProps {
   onClose: () => void;
 }
 
-export const ClubExplorePanel: React.FC<ClubExplorePanelProps> = ({ clubName, originType, title, projects, onClose }) => {
+export const ClubExplorePanel: React.FC<ClubExplorePanelProps> = ({ clubName, title, projects, onClose }) => {
   return (
     <div className="fixed inset-0 z-[600] flex justify-end">
       {/* Backdrop */}
