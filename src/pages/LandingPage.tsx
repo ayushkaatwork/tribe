@@ -1,5 +1,6 @@
 import React, { useState, Suspense, useRef } from "react";
 import { useNavigate } from "react-router-dom";
+import { supabase } from "../lib/supabase";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Float, Environment, PerspectiveCamera } from "@react-three/drei";
 import * as THREE from "three";
@@ -78,14 +79,50 @@ export const LandingPage: React.FC = () => {
   const [showLoginModal, setShowLoginModal] = useState(false);
   const [loginData, setLoginData] = useState({ email: "", password: "" });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [authError, setAuthError] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (formData.name && formData.email && formData.password) navigate("/dashboard");
+    setAuthError("");
+    if (formData.name && formData.email && formData.password) {
+      setIsSubmitting(true);
+      const { data, error } = await supabase.auth.signUp({
+        email: formData.email,
+        password: formData.password,
+        options: {
+          data: {
+            full_name: formData.name,
+          }
+        }
+      });
+      setIsSubmitting(false);
+      
+      if (error) {
+        setAuthError(error.message);
+      } else {
+        setShowLoginModal(true);
+      }
+    }
   };
 
-  const handleLoginSubmit = (e: React.FormEvent) => {
+  const handleLoginSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (loginData.email && loginData.password) navigate("/dashboard");
+    setAuthError("");
+    if (loginData.email && loginData.password) {
+      setIsSubmitting(true);
+      const { data, error } = await supabase.auth.signInWithPassword({
+        email: loginData.email,
+        password: loginData.password,
+      });
+      setIsSubmitting(false);
+      
+      if (error) {
+        setAuthError(error.message);
+      } else {
+        navigate("/dashboard");
+      }
+    }
   };
 
   return (
@@ -186,11 +223,14 @@ export const LandingPage: React.FC = () => {
                 className="h-[60px] bg-[#0a0a0a] border border-[#222] rounded-2xl px-6 outline-none text-white text-sm placeholder:text-slate-600 focus:border-white transition-colors tracking-widest"
               />
 
+              {authError && <div className="p-3 mb-2 rounded-xl bg-red-500/20 text-red-500 border border-red-500/50 text-xs font-bold">{authError}</div>}
+              
               <button
                 type="submit"
-                className="h-[60px] mt-4 bg-white text-black font-black tracking-[0.15em] text-xs uppercase rounded-2xl hover:bg-slate-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.1)] active:scale-95"
+                disabled={isSubmitting}
+                className="h-[60px] mt-4 bg-white text-black font-black tracking-[0.15em] text-xs uppercase rounded-2xl hover:bg-slate-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.1)] active:scale-95 disabled:opacity-50"
               >
-                Sign In
+                {isSubmitting ? "Authenticating..." : "Sign In"}
               </button>
             </form>
           </div>
@@ -270,11 +310,14 @@ export const LandingPage: React.FC = () => {
                   className="w-full h-[55px] bg-[#0a0a0a] border border-[#222] rounded-2xl px-6 outline-none text-white text-sm placeholder:text-slate-600 focus:border-white transition-all tracking-widest"
                 />
 
+                {authError && <div className="p-3 mt-4 rounded-xl bg-red-500/20 text-red-500 border border-red-500/50 text-xs font-bold text-center">{authError}</div>}
+                
                 <button
                   type="submit"
-                  className="h-[60px] mt-6 bg-white text-black font-black tracking-[0.15em] text-xs uppercase rounded-2xl hover:bg-slate-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.1)] active:scale-95"
+                  disabled={isSubmitting}
+                  className="h-[60px] mt-6 bg-white text-black font-black tracking-[0.15em] text-xs uppercase rounded-2xl hover:bg-slate-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.1)] active:scale-95 disabled:opacity-50"
                 >
-                  Create Account
+                  {isSubmitting ? "Processing..." : "Create Account"}
                 </button>
 
                 <div className="flex items-center gap-4 my-2">
